@@ -20,12 +20,15 @@ import HttpStatusCodes from '@src/constants/HttpStatusCodes';
 import { NodeEnvs } from '@src/constants/misc';
 import { RouteError } from '@src/other/classes';
 import AdzanRoutes from './routes/AdzanRoutes';
+import "reflect-metadata"
+import { AppDataSource } from './data-source';
 
 
 // **** Variables **** //
 
 const app = express();
 
+AppDataSource.initialize()
 
 // **** Setup **** //
 
