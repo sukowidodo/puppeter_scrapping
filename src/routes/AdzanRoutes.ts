@@ -41,7 +41,8 @@ async function getAll(req: IReq, res: IRes) {
 async function crawl(city: string) {
   console.log("Opening the browser......");
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
+      args: ['--no-sandbox'],
       defaultViewport: null,
     });
   const page = await browser.newPage();
