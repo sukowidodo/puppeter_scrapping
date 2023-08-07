@@ -1,5 +1,5 @@
-import { Adzan } from 'src/models/Adzan';
-import {repos} from 'src/repos/AdzanRepo'
+import { Adzan } from '../models/Adzan';
+import {repos} from '../repos/AdzanRepo'
 
 function saveAll(data:Adzan[]): Promise<void> {
     console.log({data})

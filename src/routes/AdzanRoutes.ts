@@ -1,8 +1,8 @@
 
 import { IReq, IRes } from './types/express/misc';
-import AdzanService from 'src/services/AdzanService';
+import AdzanService from '../services/AdzanService';
 import puppeteer from "puppeteer";
-import { Adzan } from 'src/models/Adzan';
+import { Adzan } from '../models/Adzan';
 
 const months = [
   "Januari",

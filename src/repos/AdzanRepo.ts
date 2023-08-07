@@ -1,4 +1,4 @@
-import { Adzan } from "src/models/Adzan"
+import { Adzan } from "../models/Adzan"
 import { AppDataSource } from "../data-source"
 import { Repository } from "typeorm"
 

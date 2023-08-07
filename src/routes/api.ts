@@ -1,7 +1,5 @@
 import { Router } from 'express';
-import jetValidator from 'jet-validator';
 
-import Paths from './constants/Paths';
 // import UserRoutes from './UserRoutes';
 
 import AdzanRoutes from './AdzanRoutes';
